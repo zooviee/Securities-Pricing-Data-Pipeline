@@ -33,7 +33,7 @@ This repository includes:
 
 ## 🏗️ Architecture
 
-![architecture](project_architecture.png)
+![Architecture](architecture/project_architecture.png)
 
 **Data Flow:**
 
@@ -193,7 +193,7 @@ Sensitive files are **not included** in this repository:
 ## ✨ Author
 
 **Oluwaseyi Akinsanya**
-Data Engineer / Data Scientist
+- Data Engineer 
 
 LinkedIn: [https://www.linkedin.com/in/seyi-a-852314184](https://www.linkedin.com/in/seyi-a-852314184)
 
