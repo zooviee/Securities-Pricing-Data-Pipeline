@@ -109,7 +109,6 @@ This project follows a **modern layered warehouse architecture**:
 │   └── project_architecture.png
 │
 ├── dags/                             # Airflow DAG definitions
-│   └── <your_dag_files>.py
 │
 ├── lib/                              # Reusable Python modules (helpers/utilities)
 │   ├── eod_data_downloader.py
