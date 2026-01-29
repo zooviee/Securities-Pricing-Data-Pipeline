@@ -138,8 +138,6 @@ This project follows a **modern layered warehouse architecture**:
 │   └── securities_market_report2.jpg
 │
 ├── docker-compose.yaml               # Local stack for Airflow/Docker services
-├── .env.example                      # Template for environment variables
-├── airflow.cfg.example               # Template Airflow config (no secrets)
 ├── .gitignore
 └── README.md
 ```
