@@ -1,0 +1,12 @@
+{"timestamp":"2026-01-27T12:02:13.091673Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-27T12:02:13.091889Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_securities_data.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-27T12:02:13.138126Z","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow._shared.secrets_masker.secrets_masker","filename":"secrets_masker.py","lineno":557}
+{"timestamp":"2026-01-27T12:02:13.149403Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.150348Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.150438Z","level":"info","event":"Current task name:t05_notify_slack_summary","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.150481Z","level":"info","event":"Dag name:polygon_eod_data_downloader_final_v2","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.387890Z","level":"info","event":"[slack] ✅ Message sent successfully.","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.387672Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}
+{"timestamp":"2026-01-27T12:02:13.395983Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.396118Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-27T12:02:13.396436Z","level":"info","event":"Task operator:<Task(PythonOperator): t05_notify_slack_summary>","logger":"task.stdout"}

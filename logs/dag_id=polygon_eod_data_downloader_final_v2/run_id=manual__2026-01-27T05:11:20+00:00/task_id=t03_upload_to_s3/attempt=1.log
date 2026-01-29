@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-27T05:11:27.339988Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-27T05:11:27.340195Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_securities_data.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-27T05:11:27.380851Z","level":"warning","event":"Skipping masking for a secret as it's too short (<5 chars)","logger":"airflow._shared.secrets_masker.secrets_masker","filename":"secrets_masker.py","lineno":557}
+{"timestamp":"2026-01-27T05:11:27.400497Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:27.401436Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:27.401500Z","level":"info","event":"Current task name:t03_upload_to_s3","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:27.401563Z","level":"info","event":"Dag name:polygon_eod_data_downloader_final_v2","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:27.405341Z","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper","filename":"connection_wrapper.py","lineno":331}
+{"timestamp":"2026-01-27T05:11:29.331354Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:29.331653Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-01-27T05:11:29.331739Z","level":"info","event":"Task operator:<Task(LocalFilesystemToS3Operator): t03_upload_to_s3>","logger":"task.stdout"}
