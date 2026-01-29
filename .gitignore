@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+airflow/logs/
+
+# Environment / Secrets
+.env.*
+*.env
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Airflow
+# Airflow
+airflow.cfg
+airflow.db
+airflow/logs/
+
+
+# Data files (important for pipelines)
+data/
+raw_data/
+processed_data/
+*.csv
+*.parquet
+*.json
+
+# Snowflake / DB configs
+snowflake_credentials.json
+db_config.yaml
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.gitignore~
+
+# Temporary files
+tmp/
+temp/
