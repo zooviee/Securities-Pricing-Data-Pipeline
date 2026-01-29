@@ -1,1 +1,0 @@
-{"timestamp":"2026-01-25T23:59:57.008039Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test_snowflake_conn.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
